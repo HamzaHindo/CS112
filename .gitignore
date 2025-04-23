@@ -1,20 +1,9 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Ignore everything
+*
 
-# Other files and folders
-.settings/
+# But don't ignore .gitignore itself
+!.gitignore
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-*.exe
-*.out
+# Don't ignore all .cpp files
+!*.cpp
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
